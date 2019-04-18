@@ -5,7 +5,6 @@ declare var $: any;
 let viz;
 declare var tableau;
 
-
 @Component({
   selector: 'app-economicos',
   templateUrl: './economicos.component.html',
