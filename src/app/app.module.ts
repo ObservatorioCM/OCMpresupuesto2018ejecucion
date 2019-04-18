@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { FormsModule } from '@angular/forms';
 
-
 // Rutas
 import { AppRoutingModule } from './app-routing.module';
 
@@ -13,11 +12,6 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { IndiceComponent } from './indice/indice.component';
 import { AboutComponent } from './about/about.component';
-// import { ProgramaComponent } from './programas/programa/programa.component';
-import { CardBasicoComponent } from './shared/cards/card-basico/card-basico.component';
-import { CardInfoProgramaComponent } from './shared/cards/card-info-programa/card-info-programa.component';
-// import { ProgramaAniosComponent } from './programas/programa/programa-anios/programa-anios.component';
-// import { EconomicosComponent } from './programas/economicos/economicos.component';
 import { GastosPorEconomicoComponent } from './gastos/gastos-por-economico/gastos-por-economico.component';
 import { GastosPorProgramaComponent } from './gastos/gastos-por-programa/gastos-por-programa.component';
 import { IngresosPorEconomicoComponent } from './ingresos/ingresos-por-economico/ingresos-por-economico.component';
@@ -29,11 +23,6 @@ import { IngresosPorEconomicoComponent } from './ingresos/ingresos-por-economico
     FooterComponent,
     IndiceComponent,
     AboutComponent,
-    // ProgramaComponent,
-    CardBasicoComponent,
-    CardInfoProgramaComponent,
-    // ProgramaAniosComponent,
-    // EconomicosComponent,
     GastosPorEconomicoComponent,
     GastosPorProgramaComponent,
     IngresosPorEconomicoComponent
@@ -43,7 +32,6 @@ import { IngresosPorEconomicoComponent } from './ingresos/ingresos-por-economico
     AppRoutingModule,
     NgSelectModule,
     FormsModule
-
   ],
   providers: [],
   bootstrap: [AppComponent]
