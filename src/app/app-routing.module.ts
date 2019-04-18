@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 
 import { Routes, RouterModule } from '@angular/router';
-import { IndiceComponent } from './programas/indice/indice.component';
-import { AboutComponent } from './programas/about/about.component';
+import { IndiceComponent } from './indice/indice.component';
+import { AboutComponent } from './about/about.component';
 import { ProgramaComponent } from './programas/programa/programa.component';
 import { ProgramaAniosComponent } from './programas/programa/programa-anios/programa-anios.component';
 import { EconomicosComponent } from './programas/economicos/economicos.component';
