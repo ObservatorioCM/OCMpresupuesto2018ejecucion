@@ -1,3 +1,39 @@
+:root {
+  --fuente-principal: 'Roboto', serif;
+  --primario: #da595e;
+  --obscuro: #484848;
+  --claro: #ffffff;
+}
+
+body {
+  font-family: var(--fuente-principal);
+  max-width: 1000px;
+  margin: 0 auto;
+  /* background-color: rgb(220, 234, 252); */
+  background: linear-gradient(to right, rgba(197,224,235,1) 0%, rgba(144,221,245,1) 54%, rgba(97,178,206,1) 100%);
+}
+
+#ingresos, #gastos {
+  font-weight: 700 !important;
+  margin-top: 10px;
+  color: #ca3542;
+  font-family: var(--fuente-principal);
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+.gastos {
+ border: 10px, solid black;
+ margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+ display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 48% 48%;
+  grid-template-rows: 280px;
+}
+
 html *{
   -webkit-font-smoothing: antialiased;
 }
@@ -14,18 +50,17 @@ height: 200px;
   line-height: 1.5em !important;
 }
 
-h3{
+h3 {
   font-weight: 900!important;
   font-size: 35px !important;
   color: red
 }
 
-
-h4{
+h4 {
   font-size: 18px !important;
 }
 
-h6{
+h6 {
   font-size: 12px !important;
   text-transform: uppercase;
   font-weight: 500;
@@ -47,8 +82,11 @@ p {
   font-weight: 700 !important;
   margin-top: 10px;
   color: #3c4858;
-  font-family: Roboto Slab,Times New Roman,serif;
+  font-family: var(--fuente-principal);
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
 }
+
 .card {
   border: 0;
   margin-bottom: 3px;
@@ -115,7 +153,7 @@ p {
   font-size: 1.125rem;
   text-shadow: 0 2px 5px rgba(33,33,33,.5);
   font-weight: 700;
-  font-family: 'Roboto Slab';
+  font-family: var(--fuente-principal);;
 }
 
 .card .card-category {

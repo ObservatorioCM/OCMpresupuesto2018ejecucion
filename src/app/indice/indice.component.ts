@@ -1,3 +1,5 @@
+// TODO:Cambiar ProgramasOCM en angular.json para que no aparezca como nombre de carpeta en dist.
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
