@@ -11,6 +11,7 @@ html *{
 
 .contenedor {
   max-width: 1100px;
+  height: 100vh;
   margin: 0 auto;
   /* background-color: rgb(220, 234, 252); */
   background: linear-gradient(to right, rgba(197,224,235,1) 0%, rgba(144,221,245,1) 54%, rgba(91,172,201,1) 100%);
