@@ -19,8 +19,10 @@ export class IngresosPorEconomicoComponent implements OnInit {
    // Tabla economicos ingresos 2018.xlsx
    // Shift-Alt-I will put a cursor at the end of all selected lines
 
-    this.datos =
-    [
+    // this.datos = 'ingresosPorEconomicos2018';
+
+    // TODO: asignar a un fichero.
+    this.datos =  [
       'Sobre la renta de la personas físicas',
       'Impto sobre Biene Inmuebles. Bienes Inmueb de Nat Rústica',
       'Impto sobre Bienen Inmuebles. Bienes de Naturaleza Urbana',
