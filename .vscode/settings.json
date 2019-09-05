@@ -10,20 +10,5 @@
   "peacock.affectTitleBar": true,
   "peacock.elementAdjustments": {
     "activityBar": "lighten"
-  },
-
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#a2c0ec",
-    "activityBar.foreground": "#15202b",
-    "activityBar.inactiveForeground": "#15202b99",
-    "activityBarBadge.background": "#8af4a3",
-    "activityBarBadge.foreground": "#15202b",
-    "titleBar.activeBackground": "#a2c0ec",
-    "titleBar.inactiveBackground": "#a2c0ec",
-    "titleBar.activeForeground": "#e7e7e7",
-    "titleBar.inactiveForeground": "#e7e7e799",
-    "statusBar.background": "#a2c0ec",
-    "statusBarItem.hoverBackground": "#ef7853",
-    "statusBar.foreground": "#e7e7e7"
   }
 }
